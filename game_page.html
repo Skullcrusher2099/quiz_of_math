@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h4 id="player_1_name">Rannvijay:  <span id="player_1_score">50</span></h4> 
+    <h4 id="player_2_name">Nikita Maam:  <span id="player_2_score">40</span></h4>
+    <script src="game_coding.js"></script>
+    <div class="container">
+        <center>
+            <h2 style="color: rgb(255, 255, 255);">The Math Quiz Game</h2>
+            <br>
+            <br>
+            <details>
+                <summary>Click to see Turns</summary>
+                <h4>Question turn:  <span id = name1>Nikita Maam</span></h4>
+            <h4>Answer turn: <span id = name2>Rannvijay</span></h4> 
+            </details>
+            
+            <br>
+            <br>
+            <br>
+            <div id="output">
+                <label id="question">54</label>
+                <br>
+                <h4>Answer:<span> <input type="text"></input> </span> </h4> 
+                <button id="check">Check Answer</button>
+            </div>
+            <br>
+            <br>
+            <br>
+
+            <label>Number1</label>
+            <br>
+            <input type="text" class="q_numbers" placeholder="Enter 1st number here">
+           <br>
+           <br>
+           <label>X</label>
+           <br>
+           <br>
+            <label>Number2</label>
+            <br>
+            <input type="text" class="q_numbers" placeholder="Enter 2st number here">
+            <br>
+            <br>
+            <button class="q_n" onclick="send()">Send</button>
+
+        </center>
+    </div>
+</body>
+</html>
